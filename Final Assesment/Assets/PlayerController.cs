@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public float rotationSpeed;
 
+    public Animator animcontroller;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +48,7 @@ public class PlayerController : MonoBehaviour
         newVelocity.x = moveX * Time.deltaTime * movementSpeed;
         newVelocity.z = moveY * Time.deltaTime * movementSpeed;
 
+        float animationRunningSpeed -
 
         if (jumpInput == true)
         {
