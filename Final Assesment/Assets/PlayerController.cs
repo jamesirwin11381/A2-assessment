@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
         newVelocity.x = moveX * Time.deltaTime * movementSpeed;
         newVelocity.z = moveY * Time.deltaTime * movementSpeed;
 
-        float animationRunningSpeed -
+        
 
         if (jumpInput == true)
         {
